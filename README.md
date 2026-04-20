@@ -19,8 +19,9 @@ table with flow rule installation.
 ## Setup & Execution
 
 ### Prerequisites
-`sudo apt install mininet iperf iperf3 wireshark -y
-git clone https://github.com/noxrepo/pox.git ~/pox`
+`sudo apt install mininet iperf iperf3 wireshark -y`
+
+`git clone https://github.com/noxrepo/pox.git ~/pox`
 
 ### Install controller
 ```cp network_monitor.py ~/pox/ext/```
