@@ -19,18 +19,18 @@ table with flow rule installation.
 ## Setup & Execution
 
 ### Prerequisites
-sudo apt install mininet iperf iperf3 wireshark -y
-git clone https://github.com/noxrepo/pox.git ~/pox
+`sudo apt install mininet iperf iperf3 wireshark -y
+git clone https://github.com/noxrepo/pox.git ~/pox`
 
 ### Install controller
-cp network_monitor.py ~/pox/ext/
+```cp network_monitor.py ~/pox/ext/```
 
 ### Run (two terminals)
 # Terminal 1:
-cd ~/pox && python3 pox.py log.level --DEBUG network_monitor
+`cd ~/pox && python3 pox.py log.level --DEBUG network_monitor`
 
 # Terminal 2:
-sudo python3 network_monitor_topo.py
+`sudo python3 network_monitor_topo.py`
 
 ## Expected Output
 - POX logs switch connections, flow installations, and port stats every 5s
