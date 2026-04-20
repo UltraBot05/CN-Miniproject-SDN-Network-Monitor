@@ -39,9 +39,9 @@ table with flow rule installation.
 - ovs-ofctl dump-flows shows installed match-action rules
 
 ## Test Scenarios
-1. Normal: pingall — 0% packet loss, flow rules installed
-2. Stress: iperf h1→h3 — utilization alert triggered in POX
-3. Multi-host: simultaneous iperf — inter-switch congestion visible
+1. Normal: pingall - 0% packet loss, flow rules installed
+2. Stress: iperf h1→h3 - utilization alert triggered in POX
+3. Multi-host: simultaneous iperf - inter-switch congestion visible
 
 ## References
 - Mininet: https://mininet.org
